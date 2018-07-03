@@ -1,0 +1,166 @@
+.flip-up
+{
+	animation:flipup 2s;
+}
+
+@keyframes flipup
+{
+	0%
+	{
+		transform:perspective(2500px) rotateX(-100deg)
+	}
+	100%
+	{
+		
+	}
+}
+
+.scale
+{
+	animation:scale 1s;
+}
+
+@keyframes scale
+{
+	0%
+	{
+		transform:scale(0);
+	}
+	100%
+	{
+		
+	}
+}
+
+.scale80
+{
+	animation:scale 1s;
+}
+
+@keyframes scale80
+{
+	0%
+	{
+		transform:scale(80);
+	}
+	100%
+	{
+		transform:scale(100);
+	}
+}
+
+.translateytop
+{
+	animation:translateytop 1s;
+}
+
+@keyframes translateytop
+{
+	0%
+	{
+		transform:translateY(-100%);
+	}
+	100%
+	{
+	}
+}
+
+.translateybottom
+{
+	animation:translateybottom 1s;
+}
+
+@keyframes translateybottom
+{
+	0%
+	{
+		transform:translateY(100%);
+	}
+	100%
+	{
+	}
+}
+
+.slide-right
+{
+	animation:slideright 1.5s;
+}
+
+.slide-left
+{
+	animation:slideleft 1.5s;
+}
+
+@keyframes slideright
+{
+	0%
+	{
+		transform:translateX(-100%);
+	}
+	100%
+	{
+		transform:translateX(0px);
+	}
+}
+
+@keyframes slideleft
+{
+	0%
+	{
+		transform:translateX(100%);
+	}
+	100%
+	{
+		transform:translateX(0px);
+	}
+}
+
+.menuscale
+{
+	animation:scale 0.5s;
+}
+
+@keyframes menuscale
+{
+	0%
+	{
+		transform:scale(0);
+	}
+	100%
+	{
+		
+	}
+}
+
+.menuscalezero
+{
+	animation:scale 0.5s;
+}
+
+@keyframes menuscalezero
+{
+	0%
+	{
+	}
+	100%
+	{
+		transform:scale(0);
+	}
+}
+
+.appear
+{
+	animation:appear 3s;
+}
+
+@keyframes appear
+{
+	0%
+	{
+		opacity:0;
+	}
+	100%
+	{
+		opacity:1;
+	}
+}
